@@ -70,11 +70,12 @@ section.imagem {
     background-color: rgb(31, 31, 31);
     color: white;
     box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.411);
+    background-size: cover;
     background-attachment: fixed;
 }
 
 section.imagem > p {
-    padding: 5px;  
+    padding: 5px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.507);
     text-shadow: 1px 1px 0px black;
@@ -94,12 +95,4 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-}
-
-@media (max-width: 500px) {
-    section#img01 {
-    background-image: url(../imagens/background001.jpg);
-    background-position: right center;
-    max-width: 500px;
-}
 }
